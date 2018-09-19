@@ -6,7 +6,6 @@ parameters:
 
 framework:
   secret: '%secret%'
-  csrf_protection: ~
   validation: { enable_annotations: true }
   default_locale: '%locale%'
   trusted_hosts: ~
